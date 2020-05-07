@@ -17,7 +17,7 @@ Sebuah website e-commerce katalog penjualan alat dan aksesoris handphone. Websit
 * [x] Fitur Theme
 
 ### Demo
-Link website : <a url="https://one-cellular.000webhostapp.com/">klik disini!</a> <br>
+Link website : <a href="https://one-cellular.000webhostapp.com/">klik disini!</a> <br>
 Untuk database hub : triagung128@gmail.com
 
 <br><br><br>
