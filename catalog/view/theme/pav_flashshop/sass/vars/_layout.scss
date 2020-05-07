@@ -1,0 +1,154 @@
+
+// Topbar
+// -------------------------
+$topbar-bg                                      : $theme-color-third !default;
+$topbar-link-color                              : $theme-color-second  !default;
+$topbar-link-hover-color                        : $theme-color !default;
+$topbar-link-padding                            : 12px 0 !default;
+$topbar-color                                   : $theme-color-second  !default;
+$topbar-border                                  : 0 !default;
+$topbar-font-size                               : 10px !default;
+$topbar-icon-color                              : $theme-color-second  !default;
+$topbar-icon-font-size                          : 18px !default;
+$topbar-text-transform                          : uppercase !default;
+$topbar-font-weight                             : bold !default;
+$topbar-padding                            		: 0 !default;
+$topbar-margin 									: 0px !default;
+$topbar-font-family 							: $font-family-base !default;
+
+//// Header
+
+$header-main-padding : 20px 0 !default;
+$header-bg: $white !default;
+
+
+// Mega Menu Module
+// ========================================================================
+$mainmenu-bg: transparent !default;
+$megamenu-bg:                      #fff !default;
+$megamenu-link-margin:             0 !default;
+$megamenu-link-padding:             13px 15px !default;
+$megamenu-link-font-size:           14px !default;
+$megamenu-link-font-weight:         600 !default;
+$megamenu-font-family:              $font-family-base !default;
+$megamenu-link-color:               $white !default;
+$megamenu-link-font-family:        $megamenu-font-family !default;
+$megamenu-link-text-transform:    uppercase!default;
+
+$megamenu-dropdown-padding:       30px !default;
+$megamenu-dropdown-bg:           $white !default;
+$megamenu-dropdown-minwidth:        250px !default;
+
+$megamenu-dropdown-link-color: #666!default;
+$megamenu-dropdown-link-hover-color: $theme-color!default;
+$megamenu-dropdown-link-font-size: 14px!default;
+$megamenu-dropdown-link-font-weight: 400!default;
+$megamenu-dropdown-link-line-height: 28px!default;
+$megamenu-dropdown-link-transform: initial!default;
+
+$megamenu-widget-title-color: $black!default;
+$megamenu-widget-title-margin: 0 0 10px!default;
+$megamenu-widget-title-font-weight: 600!default;
+$megamenu-widget-title-font-size: 14px!default;
+
+// Vertical Menu Module
+// ========================================================================
+$mainmenu-bg: transparent !default;
+$vertical-bg:                       $white !default;
+$vertical-link-margin:             0 !default;
+$vertical-link-padding:             10px 20px !default;
+$vertical-link-font-size:           14px !default;
+$vertical-link-font-weight:         600 !default;
+$vertical-font-family:              $font-family-base !default;
+$vertical-link-color:               $theme-color-default !default;
+$vertical-link-font-family:        $vertical-font-family !default;
+$vertical-link-text-transform:    initial!default;
+
+$vertical-dropdown-padding:       30px !default;
+$vertical-dropdown-bg:           $white !default;
+$vertical-dropdown-minwidth:        250px !default;
+
+$vertical-dropdown-link-color: #666!default;
+$vertical-dropdown-link-hover-color: $theme-color!default;
+$vertical-dropdown-link-font-size: 14px!default;
+$vertical-dropdown-link-font-weight: 400!default;
+$vertical-dropdown-link-line-height: 40px!default;
+$vertical-dropdown-link-transform: initial!default;
+
+$vertical-widget-title-color: $black!default;
+$vertical-widget-title-margin: 0 0 20px!default;
+$vertical-widget-title-font-weight: 600!default;
+$vertical-widget-title-font-size: 14px!default;
+// OffCanvas Menu
+// ========================================================================
+$offcanvas-menu-bg:                 $white !default;
+$offcanvas-menu-padding:            12px 15px !default;
+$offcanvas-menu-link-color:         $white !default;
+$offcanvas-menu-font-size:          $font-size-base !default;
+$offcanvas-menu-transform:          uppercase !default;
+$offcanvas-menu-font-family:        $font-family-base !default;
+$offcanvas-menu-border:             1px solid lighten($offcanvas-menu-bg, 10%) !default;
+$offcanvas-menu-icon-color:         $white !default;
+$offcanvas-menu-icon-font-size:     $font-size-base * 2 + 2 !default;
+$offcanvas-menu-icon-padding:       8px 15px !default;
+$offcanvas-menu-border-caret:       1px solid $white !default;
+$offcanvas-menu-caret-color:        $white !default;
+$offcanvas-menu-text-color:         $theme-color-default !default;
+$offcanvas-menu-text-fs:            $font-size-base + 1 !default;
+
+// Footer
+// -------------------------
+$footer-bg                                  : $white !default;
+$footer-color                               : $theme-color-second !default;
+$footer-padding                             : 12px !default;
+$footer-font-size                           : 16px !default;
+$footer-heading-color                       : $white !default;
+$footer-heading-font-size                   : 14px !default;
+$footer-heading-font-weight                 : 700 !default;
+$footer-heading-margin                      : 30px 0 !default;
+$footer-heading-padding                     : 0 !default;
+$footer-link-color                          : $footer-color!default;
+$footer-link-hover-color                    : $theme-color!default;
+$footer-link-font-size                      : 15px !default;
+$footer-link-light-height                   : 24px !default;
+
+$footer-top-bg                                  : $white !default;
+$footer-top-color                               : $theme-color-second !default;
+$footer-top-padding                             : 12px !default;
+$footer-top-font-size                           : 16px !default;
+$footer-top-heading-color                       : $white !default;
+$footer-top-heading-font-size                   : 20px !default;
+$footer-top-heading-margin                      : 30px 0 !default;
+$footer-top-heading-padding                     : 0 !default;
+$footer-top-link-color                          : $footer-top-color!default;
+$footer-top-link-hover-color                    : $theme-color!default;
+$footer-top-link-font-size                      : 15px !default;
+$footer-top-link-light-height                   : 24px !default;
+
+$footer-bottom-bg                                  : $theme-color-default !default;
+$footer-bottom-color                               : $theme-color-second !default;
+$footer-bottom-padding                             : 12px !default;
+$footer-bottom-font-size                           : 16px !default;
+$footer-bottom-heading-color                       : $white !default;
+$footer-bottom-heading-font-size                   : 20px !default;
+$footer-bottom-heading-margin                      : 30px 0 !default;
+$footer-bottom-heading-padding                     : 0 !default;
+$footer-bottom-link-color                          : $footer-bottom-color!default;
+$footer-bottom-link-hover-color                    : $theme-color!default;
+$footer-bottom-link-font-size                      : 15px !default;
+$footer-bottom-link-light-height                   : 24px !default;
+// Copyright
+// -------------------------
+
+ // Copyright
+// -------------------------
+$copyright-bg                                   : $white !default;
+$copyright-color                                : #000 !default;
+$copyright-link-color                           : #999 !default;
+$copyright-padding-top                          : 35px !default;
+$copyright-padding-bottom                       : 60px !default;
+$copyright-font-size							: 12px !default;
+$copyright-font-weight							: 400 !default;
+
+$del-font-size									: 12px !default;
+$del-color										: $theme-color-second;

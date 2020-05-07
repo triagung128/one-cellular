@@ -1,0 +1,128 @@
+.page-pavblog{
+	h1{
+		margin: 0;
+	}
+}
+.comment-warning{
+	color: #c12e2a;
+}
+.page-pavblog-blog{
+	.pav-blogs{
+		background: $white;
+	    margin-bottom: 30px;
+	    padding: 20px;
+	}
+}
+.pav-blogs{ 
+	.blog-date{
+		background: $black;
+		color: $white;
+		display: block;
+		@include rtl-float-left();
+		font-size: $font-size-base + 4;
+		height: 70px;
+		line-height: normal;
+		@include rtl-margin-right(20px);
+		overflow: hidden;
+		padding: 12px;
+		.day {
+			padding: 0;
+			display: block;
+			text-align: center;
+		}
+	}
+	.blog-body{
+		overflow: hidden;
+		padding: 0 !important;
+		.text-link{
+			color: $black;
+			font-weight: 600;
+			.fa{
+				@include rtl-padding-left(5px);
+			}
+			&:hover,&:active,&:focus{
+				color: $link-hover-color;
+			}
+		}
+	}
+	.blog-title{
+		a{
+			color: $link-color;
+            font-size: 30px;
+            line-height: 30px;
+		}
+	}
+	.blogs-item {
+		padding-bottom: 20px;
+		background-color: $white;
+		.description {
+			color: $theme-color-second;
+            margin: 20px 0 30px;
+		}
+	}
+	.blog-meta{
+        width: 80%;
+        margin: 30px auto 15px;
+	  ul{
+		margin: 20px 0 10px;
+		  	li {
+			  display: inline-block;
+			  @include rtl-padding-right(13px);
+
+			}
+		}
+        .readmore {
+            font-size: 12px;
+        }
+	}
+}
+.pav-categorymenu {
+	.head {
+		display: none;
+	}
+}
+.created {
+	font-size: 12px;
+    color: $theme-color-second;
+    text-transform: uppercase;
+    .hits, .comment {
+        margin: 0 10px;
+    }
+}
+.widget-blogs {
+    @media (min-width: $screen-sm-max) {
+        margin: 20px 0 50px;
+    }
+    .latest-posts-image {
+        position: relative;
+    }
+    .created {
+        position: absolute;
+        bottom: 0;
+        background: $theme-color;
+        color: $white;
+    }
+    .description {
+        font-size: 14px;
+        color: #666;
+    }
+    .latest-posts-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        display: block;
+    }
+    .latest-posts-body {
+        padding: 25px;
+    }
+    .item {
+        border-bottom: 1px solid $border-color;
+    }
+    &.blog-v2 .latest-posts-body {
+        padding-bottom: 20px;
+        border-bottom: 1px solid $border-color;
+        margin-bottom: 15px;
+    }
+}

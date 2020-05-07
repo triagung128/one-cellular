@@ -1,0 +1,25 @@
+//newleter
+.form-newsletter {
+    .description {
+        padding:15px 0 10px;
+    }
+	.email {
+        background: #fafafa;
+	}
+}
+.form-control::-moz-placeholder{
+    font-family: "Droid Serif",serif;
+    font-style: italic;
+}
+.valid {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 10;
+    @include rtl-left(0);
+    .alert {
+        width: auto;
+        margin-top: 20px;
+        @include rtl-text-align-left();
+    }
+}

@@ -1,0 +1,21 @@
+.rtl {
+    //(max-width: 991px)
+    @media (max-width: $screen-sm-max) {
+
+    }
+	/*$media (max-width: 767px) {*/
+	@media (max-width: $screen-xs-max) {
+        .header-v .header-middle .column:last-child > div {
+            float: right !important;
+        }
+
+	}
+	@media (max-width: 320px) {
+        .row-offcanvas-left.active {
+            right: 70%!important;
+        }
+        .row-offcanvas-left .sidebar-offcanvas {
+            right: -70%!important;
+        }
+	}
+}

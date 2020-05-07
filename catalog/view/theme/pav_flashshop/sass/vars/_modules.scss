@@ -1,0 +1,104 @@
+// Mini basket and shopping cart
+// ========================================================================
+$cart-heading-color : 				$black !default;
+$cart-icon-bg:                      $theme-color-default !default;
+$cart-icon-color:                   $white !default;
+$cart-icon-font-size:               $font-size-base + 2 !default;
+$cart-product-font-size:			$font-size-base - 2 !default;
+
+$cart-font-size:					$font-size-base - 2 !default;
+$cart-font-weight:					700 !default;
+$cart-color:                        $theme-color !default;
+$cart-color-hover:                  $white!default;
+$cart-bg-color:                     transparent !default;
+$cart-bg-color-hover:               $theme-color !default;
+$cart-font-icon-size:               14px !default;
+
+$cart-number-product-font-size:		10px !default;
+$cart-number-product-color:			$white!default;
+$cart-number-product-bg:			transparent!default;
+$cart-number-product-color-hover:	$white!default;
+$cart-number-product-bg-hover:		$black!default;
+$cart-number-product-width:		    15px !default;
+$cart-number-product-height:		15px !default;
+
+
+$quick-setting-border:              1px solid $border-color !default;
+$quick-setting-border-hover:        1px solid $theme-color !default;
+
+// Mini basket and shopping cart
+// ========================================================================
+
+// Last - Blog
+// ========================================================================
+ $blog-date-bg:                     $white !default;
+ $blog-date-text:                   $black !default;
+
+//Minicart
+$minicart-module-bg:                $white !default;
+$minicart-module-font:              600 18px "tahoma"!default;
+$minicart-module-list-font-family:  $font-family-base !default;
+$minicart-module-list-font-size:    14px!default;
+
+
+// Search
+// ========================================================================
+$search-border:						$border-color !default;
+$search-bg-color:                   $white !default;
+$search-padding: 					0 20px !default;
+$search-input-color: 			    $theme-color !default;
+$search-input-border:               none !default;
+$search-input-bg:                   transparent !default;
+$search-input-padding:              0 !default;
+$search-icon-color:                 $theme-color !default;
+$search-button-border:              none !default;
+$search-button-bg:                  $theme-color !default;
+$search-button-padding:             0 !default;
+
+// Contact page
+// ========================================================================
+$contact-bg:                        $body-bg !default;
+$contact-padding:                   20px !default;
+$contact-border:                    0 !default;
+$contact-icon-color:                $white !default;
+$contact-icon-bg:                   lighten($gray, 30%) !default;
+$contact-icon-font-size:            $font-size-base + 5 !default;
+$contact-icon-hover-bg:             $theme-color !default;
+$contact-height:                    338px !default;
+
+
+
+// Htab module
+// ========================================================================
+$htab-border-width:					0px 1px 1px 1px !default;
+$htab-nav-padding: 					10px 15px !default;
+$htab-nav-margin:                   0 !default;
+$htab-nav-color: 					$theme-color-default !default;
+$htab-bg-selected: 					$theme-color !default;
+$htab-nav-selected-color: 			$white !default;
+$htab-nav-border-color: 			transparent !default;
+$htab-nav-border-width:             0px 0px 0px 0px !default;
+$htab-nav-border-style:             solid !default;
+$htab-nav-border-color-hover:       $theme-color !default;
+$htab-nav-border-color-selected:    $htab-bg-selected $htab-bg-selected $htab-bg-selected $htab-bg-selected !default;
+$htab-nav-content-padding:          20px !default;
+$htab-nav-font-size:                $font-size-base + 2!default;
+
+
+
+// Social
+// ========================================================================
+ $socials-theme-color:              $black;
+$socials-theme-font-size: 		   10px;
+$socials-theme-font-weight:        300;
+$socials-theme-width:              114px;
+$socials-theme-height:             42px;
+$socials-theme-icon-color:         $white;
+$socials-theme-icon-border:        0;
+$socials-theme-icon-font-size:     $font-size-base + 7;
+$socials-theme-border:             1px solid darken($border-color, 5%);
+$socials-theme-padding:            11px 10px;
+$socials-theme-margin:             0;
+$socials-theme-outside:            -262px;
+
+

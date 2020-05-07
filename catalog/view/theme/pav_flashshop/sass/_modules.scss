@@ -1,0 +1,100 @@
+.sub-title {
+  color: $theme-color-second;
+  text-align: center;
+  font-family: $font-family-base;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.deals-option {
+	&.nav-tabs {
+		> li {
+			display: inline-block;
+			float: none;
+		}
+	}
+}
+.map-wapper {
+	height: 64px;
+	overflow: hidden;
+	text-align: center;
+	@include transition(height 0.5s);
+	#viewmap {
+	    position: absolute;
+	    z-index: 20;
+	    top: -20px;
+	    @include rtl-margin-left(-30px);
+	}
+	&.map-height {
+		height: 400px;
+	}
+}
+.contact-us {
+	.panel-heading {
+		@include rtl-text-align-left();
+	}
+}
+.contact {
+	.fa {
+		width: 20px;
+		@include rtl-text-align-left();
+	}
+}
+.social-icon-list {
+ li {
+    padding: 0;
+ }
+}
+
+/* slidelayer */
+.bannercontainer{
+    overflow: hidden;
+    &:hover{
+        .tp-rightarrow {
+            right: 20px !important;
+        }       
+        .tp-leftarrow{
+            left: 20px !important;
+        }
+    }
+}
+.tparrows {
+    position:absolute;
+    top:50% !important;
+    z-index:9999;
+    cursor:pointer;
+    display: block;
+    @include size(45px,45px);
+    @include transition(all 0.3s ease-in-out 0s);
+    font-size: 0;
+    &:before {
+        color: $white;
+        content: "\f105";
+        display: inline-block;
+        font: 20px/40px "FontAwesome";
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        @include size(45px,40px);
+        z-index: 12;
+        background-color: $theme-color;
+    }
+    &.tp-leftarrow {
+        &:before {
+            content: "\f104";
+        }
+    }
+    &:hover {
+        &:before {
+            background-color: $white;
+            color: #bbbbbb;
+        }
+    }
+}
+.tp-leftarrow {
+    left:-50px !important;
+}
+.tp-rightarrow {
+    right:-50px !important;
+}

@@ -1,0 +1,129 @@
+
+/* customize for body */ 
+body { 
+background-color:#f230f2;
+background-image:url(../../image/pattern/pattern11.png);
+font-size:9px;
+font-family:Verdana, Geneva, sans-serif 
+} 
+
+/* customize for #topbar */ 
+#topbar { 
+background-color:#ff87ff;
+background-image:url(../../image/pattern/pattern10.png) 
+} 
+
+/* customize for header */ 
+header { 
+background-color:#691b69;
+background-image:url(../../image/pattern/pattern10.png) 
+} 
+
+/* customize for #topbar button span, header .phone */ 
+#topbar button span, header .phone { 
+color:#14f6fa 
+} 
+
+/* customize for #topbar .list-inline a */ 
+#topbar .list-inline a { 
+color:#00ff73 
+} 
+
+/* customize for #topbar .btn-link i */ 
+#topbar .btn-link i { 
+color:#ff0d0d 
+} 
+
+/* customize for .navbar-mega */ 
+.navbar-mega { 
+background-color:#0adff7;
+background-image:url(../../image/pattern/pattern12.png) 
+} 
+
+/* customize for .navbar-mega .navbar-nav li a */ 
+.navbar-mega .navbar-nav li a { 
+color:#f720f7 
+} 
+
+/* customize for .navbar-mega .navbar-nav li .dropdown-menu */ 
+.navbar-mega .navbar-nav li .dropdown-menu { 
+background-color:#9ffcdd;
+background-image:url(../../image/pattern/pattern12.png) 
+} 
+
+/* customize for .navbar-mega .widget-heading */ 
+.navbar-mega .widget-heading { 
+color:#0900ff 
+} 
+
+/* customize for .navbar-mega .navbar-nav li .dropdown-menu li a */ 
+.navbar-mega .navbar-nav li .dropdown-menu li a { 
+color:#05ff1e 
+} 
+
+/* customize for footer, .copyright, footer .footer-bottom, footer .footer-top, footer .footer-center */ 
+footer, .copyright, footer .footer-bottom, footer .footer-top, footer .footer-center { 
+background-color:#ab22ab;
+background-image:url(../../image/pattern/pattern12.png) 
+} 
+
+/* customize for .copyright */ 
+.copyright { 
+background-color:#1b00a3;
+background-image:url(../../image/pattern/pattern13.png) 
+} 
+
+/* customize for footer .panel-title */ 
+footer .panel-title { 
+color:#21f700 
+} 
+
+/* customize for .copyright, .content-html, footer p,.form-newsletter .description  */ 
+.copyright, .content-html, footer p,.form-newsletter .description  { 
+color:#ff6bff 
+} 
+
+/* customize for footer a, .copyright a,footer .list-unstyled li a */ 
+footer a, .copyright a,footer .list-unstyled li a { 
+color:#00ff33 
+} 
+
+/* customize for .product-label */ 
+.product-label { 
+color:#f041f0 
+} 
+
+/* customize for .product-label, .product-label .product-label-special:before */ 
+.product-label, .product-label .product-label-special:before { 
+background-color:#ffffff 
+} 
+
+/* customize for .product-block .name a */ 
+.product-block .name a { 
+color:#38a82b 
+} 
+
+/* customize for .price .price-new */ 
+.price .price-new { 
+color:#0008fa 
+} 
+
+/* customize for .price .price-old */ 
+.price .price-old { 
+color:#ff2626 
+} 
+
+/* customize for .product-block.product-v1 .cart .btn,.product-block.product-v1 .cart .btn i */ 
+.product-block.product-v1 .cart .btn,.product-block.product-v1 .cart .btn i { 
+color:#080cff 
+} 
+
+/* customize for .product-block.product-v1 .cart .btn */ 
+.product-block.product-v1 .cart .btn { 
+border-color:#ff00ff 
+} 
+
+/* customize for .product-block.product-v1 .btn-style */ 
+.product-block.product-v1 .btn-style { 
+color:#0dff00 
+} 

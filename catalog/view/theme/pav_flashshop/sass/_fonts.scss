@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+//FONT Flaticon
+@font-face {
+  font-family: "Flaticon";
+  src: url("#{$image-fonts-path}Flaticon.eot");
+  src: url("#{$image-fonts-path}Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("#{$image-fonts-path}Flaticon.woff") format("woff"),
+       url("#{$image-fonts-path}Flaticon.ttf") format("truetype"),
+       url("#{$image-fonts-path}Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("#{$image-fonts-path}Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-art:before { content: "\f100"; }

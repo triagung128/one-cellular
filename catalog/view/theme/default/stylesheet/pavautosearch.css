@@ -1,0 +1,105 @@
+.search_block{
+	min-height: 40px;
+    overflow: hidden;
+    left: 0;
+}
+.search_block .filter_type{
+	float:left;
+	padding:5px;
+}
+
+.search_block .search input,.search_block select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../image/pavautosearch/bg_search_input.png") repeat-x scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #666666;
+    border-image: none;
+    border-left: 1px solid #666666;
+    border-right: 0 none !important;
+    border-top: 1px solid #666666;
+    color: #666666;
+    float: left;
+    height: 23px;
+    padding: 0 5px;
+    width: 200px;
+}
+.search_block select {
+    min-height: 25px;
+    padding: 3px 3px 3px 3px;
+    border-right:1px solid #666666 !important;
+    width: auto;
+}
+.search_block .search{
+    float: left;
+    padding: 5px;
+}
+.search_block .search .button-search {
+    background: url("../image/pavautosearch/bg_search_submit.png") repeat-x scroll 0 0 #101010;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    float: left;
+    height: 25px;
+    text-transform: uppercase;
+    width:auto;
+}
+.ui-widget-content{
+    background:#FFFFFF!important;
+}
+ul.ui-autocomplete {
+    background-color: #FFFFFF;
+    border: 2px solid #C4C6C8;
+    margin: 0;
+}
+ul.ui-autocomplete  > li{
+    color: #2F2F2F;
+    cursor: pointer;
+    margin: 4px 0;
+    min-height: 15px;
+}
+ul.ui-autocomplete  > li:hover{
+ background: #330099;
+ color: #FFF;
+}
+ul.ui-autocomplete  > li {
+    text-align: left;
+    padding:5px;
+}
+ul.ui-autocomplete > li p {
+    text-align: justify;
+}
+
+ul.ui-autocomplete li.ui-menu-item{
+    border-style: dotted none none;
+    border-width: 1px 0 0;
+    margin: 0;
+    min-height: 0;
+    padding: 0;
+}
+ul.ui-autocomplete ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+ul.ui-autocomplete ol .price {
+    color: #333333;
+    float: right;
+    font-size: 12px;
+    min-height: 10px;
+    margin-left: 8px;
+    text-align: right;
+}
+ul.ui-autocomplete ol .price-old {
+    color: #FF0000;
+    text-decoration: line-through;
+}
+ul.ui-autocomplete ol .price-new {
+    font-weight: bold;
+}
+ul.ui-autocomplete ol .price-tax {
+    color: #BBBBBB;
+    font-size: 12px;
+    font-weight: normal;
+}

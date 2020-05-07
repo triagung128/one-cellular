@@ -1,0 +1,39 @@
+/*
+ * Global variables
+ */
+$image-theme-path                : '../image/' !default;
+$image-theme-skin                : '../image/' !default;
+$image-fonts-path                : '../fonts/' !default;
+// standard colors
+$white		    : #FFF !default;
+$black			: #000 !default;
+$green			: #3fc843 !default;
+$nocolor		: transparent !default;
+$light-gray	: #CCC !default;
+
+
+// color for default theme
+$theme-color    : $brand-primary !default; /* main color which will be used for all main block styles... */
+$border-color	: #ebebeb !default;
+
+$theme-color-default             : $link-color !default;
+$theme-color-second  			 : #696969 !default;
+$theme-color-third  			 : #f00 !default;
+
+// Theme Margin, Padding
+// -------------------------
+$theme-margin    : 30px !default;
+$theme-padding   : 30px !default;
+// fonts
+$font-family-default: $font-family-base !default;
+$font-family-third: $font-family-base !default;
+$font-family-second :  $font-family-base !default;
+$theme-padding : 30px !default;
+/**
+ * Import component variables
+ */
+
+
+@import "vars/elements";
+@import "vars/product";
+@import "vars/layout";

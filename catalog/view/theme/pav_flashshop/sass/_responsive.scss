@@ -1,0 +1,210 @@
+@media (max-width: $screen-md-max){
+    .cushtml-style1{
+        padding: 25px 40px;
+    }
+    .list-group > li {
+        padding: 0 15px;
+    }
+    
+    .home4,.home6{
+        .btn-style{
+            padding: 0 8px;
+        }
+    }
+    .home4{
+        .listproduct{
+        .panel-title{
+                font-size: 17px;
+            }
+        }
+    }    
+}
+@media (max-width: $screen-md-max){
+	table {
+		button, a , input{
+			margin-top: 10px;
+		}
+		input {
+			min-width: 50px;
+		}
+	}
+    /*******************************/
+}
+/*$media (min-width: 992px) and (max-width: 1199px)*/
+@media (min-width: $screen-md) and (max-width: $screen-md-max){
+    .pav-verticalmenu .navbar-nav{
+        padding: 0 10px;
+        > li > a{
+            font-size: 12px;
+        }
+    }
+    #column-left, #column-right {
+        .product-block {
+            .price {
+                > span {
+                    float: none!important;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+/*$media (min-width: 768px) and (max-width: 991px) {*/
+
+@media (min-width: $screen-sm-max){
+    .listproduct {
+        .products-block{
+            @include rtl-padding-left(0);
+        }
+    }
+}    
+
+@media (max-width: $screen-md-max){
+    .productdeals{
+        .item-countdown{
+            bottom: 10px;
+        }
+        .product-block{
+            .action{
+                height: 90px;
+            }
+        }
+    }
+}    
+
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+}
+@media (max-width: $screen-sm-max) {
+	#content, #column-right, #column-left {
+	    width: 100%;
+	    clear: both;
+	}
+	.zoomContainer {
+		display: none;
+	}
+    .layerslider-wrapper {
+        max-width: 100%!important;
+    }
+    #compare-total {
+        margin-top: 20px;
+    }
+    .scrollup {
+        bottom: 20px;
+    }
+    .products-block .product-col{
+        border:none;
+    }
+    .productdeals{
+        .item-countdown{
+            top: 50%;
+            bottom: auto;
+        }
+    }
+    .feature-category{
+        &.feature-category-v1{
+            .item-category{
+                margin: 30px 5px;
+                &:before{
+                    top:-20px;
+                }
+            }
+            .item{
+                @include rtl-padding-left(10px);
+                padding-top: 0;
+                width: 60%;
+            }
+            .image{
+                width: 40%;
+            }
+        }
+    }
+    footer .footer-top .inner{
+        padding: 50px 10px 70px;
+    }
+    footer .column .panel{
+        margin:0;
+    }
+    .navbar-nav{
+        .new,.hot{
+            @include rtl-left(30px);
+        }
+    }
+    /*******************************/
+}
+@media (max-width: $screen-sm){
+    .quickview, .zoom{
+        display: none!important;
+    }
+}
+/*$media (max-width: 767px) {*/
+@media (max-width: $screen-xs-max) {
+	.common-home .alert {
+        margin-top: 5px;
+	}
+    #topbar .list-inline{
+        text-align: left;
+        li{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+    .logo{
+        text-align: center;
+    }
+    .widget-images{
+        text-align: center;
+    }
+    .feature-category{
+        &.feature-category-v1{
+            .item-category{
+                margin: 10px 5px;
+            }
+        }
+    }
+    .feature-box{
+        margin-bottom: 20px;
+    }
+    .cushtml-style1 .cushtml-content a{
+        margin:10px;
+    }
+    .bo-social-icons li{
+        margin-bottom: 5px;
+    }
+    .quick-search {
+        display: none;
+    }
+    .thumbs-preview img {
+        width: 50%;
+    }
+}
+/*$media (max-width: 480px) {*/
+@media (max-width: $screen-phone) {
+    .tab-group .nav > li > a{
+        &:before{
+            content: none;
+        }
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    .tab-group .tab-content{
+        padding: 25px;
+    }
+}
+@media (max-width: 320px) {
+    #cart .dropdown-menu{
+        min-width: 300px;
+    }
+    /********************************/
+	.review-form-width .panel-body {
+	    padding: 0;
+	}
+	.sidebar-offcanvas {
+		width: 70%;
+	}
+	.row-offcanvas-left.active {
+	    left: 70%;
+	}
+	.row-offcanvas-left .sidebar-offcanvas {
+	    left: -70%;
+	}
+}

@@ -1,0 +1,60 @@
+
+// Links
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  //font-family: $headings-font-family;
+}
+
+a {
+  color: $orange;
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+  }
+}
+
+//
+// Buttons
+// --------------------------------------------------
+
+// Mixin for generating new styles
+@mixin btn-styles($btn-color: #555) {
+  @include gradient-vertical($start-color: $btn-color, $end-color: darken($btn-color, 12%));
+  @include reset-filter(); // Disable gradients for IE9 because filter bleeds through rounded corners
+  background-repeat: repeat-x;
+  border-color: darken($btn-color, 14%);
+
+  &:hover,
+  &:focus  {
+    background-color: darken($btn-color, 12%);
+    background-position: 0 -15px;
+  }
+
+  &:active,
+  &.active {
+    background-color: darken($btn-color, 12%);
+    border-color: darken($btn-color, 14%);
+  }
+}
+
+
+// Make a button look and behave like a link
+.btn-link {
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+  }
+}
+.carousel-control {
+  // Hover/focus state
+  &:hover,
+  &:focus {
+    //color: $carousel-control-hover-color;
+  }
+
+}
+/* .btn-success{
+  background-color:#e7ce04;
+  border-color:#e7ce04;
+} */

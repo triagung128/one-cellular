@@ -1,0 +1,48 @@
+.testimonials{
+    padding:0;  
+    .panel-heading{
+        background-color: $theme-color;
+        padding:17px 15px;
+        border:none;
+        &:before{
+            content: none;
+        }
+    }
+    .panel-body{
+        padding:40px 30px;
+        text-align: center;
+    }
+    .panel-title{
+        color: #fff;
+   }
+    .avatar{
+        margin-bottom: 30px;
+    }
+    .profile{
+        padding-bottom:25px;
+        font-family: $font-family-droid;
+        font-size: 12px;
+        font-style: italic;
+        color:$gray-dark;
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            @include rtl-left(50%);
+            @include rtl-margin-left(-20px);
+            bottom: 15px;
+            @include size(40px,2px);
+            background-color: #e1e1e1;
+        }
+        span{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: $font-size-base - 2px;
+            color: $black;
+            font-style: normal;
+        }
+    }
+    .colorbox-t{
+        display: none;
+    }
+}

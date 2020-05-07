@@ -1,0 +1,128 @@
+// Button
+// ========================================================================
+
+
+// cart
+$button-addtocart-bg:               $white !default;
+$button-addtocart-color:            $link-color !default;
+$button-addtocart-font-size:        10px !default;
+$button-addtocart-padding:          13px 20px!default;
+$button-addtocart-font-family:      $font-family-second!default;
+$button-addtocart-bg-hover:               $theme-color !default;
+$button-addtocart-color-hover:            $white !default;
+
+// action
+$button-action-bg:                  #3d3d3d !default;
+$button-action-color:               #bbbbbb !default;
+$button-action-border-color:        $button-action-bg !default;
+
+$button-action-bg-hover:                  $theme-color !default;
+$button-action-color-hover:               $white !default;
+$button-action-border-color-hover:        $button-action-bg-hover !default;
+
+
+// Label New & Sale
+// ========================================================================
+$label-border:                      46px solid darken($theme-color-second, 10%) !default;
+$label-color: 						$theme-color !default;
+$label-font-size:                   13px !default;
+$label-font-style:                  italic !default;
+$label-new-bg:                      red !default;
+$label-transform:                   lowercase !default;
+$label-bg-color:                    $theme-color !default;
+
+// product label
+$product-label-border-color:   none!default;
+$product-label-color :#fff  !default;
+$product-label-font-size  :12px!default;
+$product-label-font-family: "Droid Serif",serif !default;
+$product-label-new-bg: $brand-success !default;
+$product-label-special-bg: $theme-color !default;
+
+
+// prodduct availability
+$product-warning-display		 : 0!default;
+$product-warning-avariable-now-bg: red !default;
+$product-warning-avariable-now-color: $white !default;
+
+$product-warning-outofstock-bg : blue !default;
+$product-warning-outofstock-color : $white !default;
+
+
+//---------- Product Elements
+$product-block-padding: 			25px 25px 10px!default;
+$product-block-margin:              0px!default;
+$product-font-family:               $font-family-base !default;
+$product-name-color:                $link-color !default;
+$product-name-hover-color:          $link-hover-color !default;
+$product-name-font-size:            14px !default;
+$product-name-font-weight:			normal !default;
+$product-name-padding:              0px!default;
+
+$product-price-color:				$theme-color  !default;
+$product-price-font-family:			$font-family-base !default;
+$product-price-font-size:			16px !default;
+
+
+$product-price-new-color:           $link-color  !default;
+$product-price-new-font-family:      $font-family-base !default;
+$product-price-new-font-size:       20px !default;
+$product-price-new-font-weight:     bold !default;
+
+
+$product-price-old-color:			$theme-color-second !default;
+$product-price-old-font-size:       16px  !default;
+$product-price-old-font-weight:     500 !default;
+
+$product-new-box-bg:                $brand-warning !default;
+$product-new-box-text-color:        #b28500!default;
+$product-sale-box-bg:               red !default;
+$product-sale-box-text-color:       #ae4e42!default;
+
+// Product alert stock
+
+$product-stock-font-size : 11px;
+$product-instock-color   : 	$white !default;
+$product-instock-bg  	 : 	$brand-info !default;
+
+$product-outofstock-color:  $white !default;
+$product-outofstock-bg      : 	$brand-warning !default;
+
+
+// Product Block
+// ========================================================================
+$product-bg-color:                  $brand-primary !default;
+$product-border-color : 			$border-color !default;
+$product-border-color-hover : 		$theme-color !default;
+$product-content-bg: 				$product-bg-color !default;
+$product-content-padding:			18px !default;
+$product-container-border:			1px solid $border-color !default;
+
+
+$product-filter-bg:                 #fff !default;
+$product-filter-active:             $brand-primary !default;
+$product-filter-font-size:          $font-size-base - 2 !default;
+$product-filter-color:              $brand-primary !default;
+$product-filter-padding: 			10px !default;
+$product-filter-border-color :		$border-color !default;
+
+$product-container-bg:              $white !default;
+$product-deals-link-color:          $black !default;
+$product-deals-link-hover-color:    $theme-color !default;
+$product-image-border:              0px !default;
+$product-image-radius:              0px !default;
+
+$product-rating-font-size: 12px !default;
+
+
+
+
+// Product Info
+// ========================================================================
+$product-info-padding:              19px !default;
+$product-info-margin:               20px !default;
+$product-info-border:               1px solid $border-color !default;
+$product-info-bg:                   $white !default;
+
+$product-info-price-font-size: 		 30px !default;
+$product-info-price-old-font-size:  22px !default;

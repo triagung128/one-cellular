@@ -1,0 +1,15 @@
+.bannercontainer .tp-bullets.simplebullets.round .bullet{
+    border:2px solid rgba(0,0,0,0.2);
+}
+.bannercontainer .tp-bullets.simplebullets.round .bullet.selected::after{
+    background: #e1e1e1;
+    left: 0;
+    top: 0;
+}
+.bannercontainer .tp-bullets.simplebullets.round .bullet.selected{
+    border:none;
+    background: #e1e1e1;
+}
+.product-block.product-v1 .cart .btn:hover i{
+	color:#ee1000;
+}

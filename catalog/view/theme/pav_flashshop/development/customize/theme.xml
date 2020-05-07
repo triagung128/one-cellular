@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+    <header>
+        <title>Header</title>
+        <description></description>
+        <module>
+            <title>phone</title>
+            <field>
+                <name>widget-phone</name>
+                <label>Content</label>
+                <type>textarea</type>
+                <lang>0</lang>
+                <default><![CDATA[
+                    <div class="phone pull-right">
+                        <i class="pull-left zmdi zmdi-whatsapp"></i>
+                        <span class="pull-left">
+                            0123 456 789
+                            <small>customer services</small>
+                        </span>
+                    </div>
+                ]]></default>
+            </field>
+        </module>
+    </header>
+
+	<footer>
+		<title>Footer</title>
+		 <description></description>
+
+		 <module>
+	 	 	<title>Feature Box</title>
+	 	 	<field>
+	 	 		<name>widget-feature-box</name>
+	 	 		<label>Content</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>0</lang>
+	 	 		<default><![CDATA[
+                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="feature-box  clearfix">
+                            <div class="fbox-icon">
+                            <i class="zmdi zmdi-comment-outline"></i>
+                            </div>
+
+                            <div class="fbox-body">
+                                <h5 class="heading">
+                                <span>+</span>contact us       
+                                </h5>
+                                <div class="htmlcontent">
+                                Contact@domain.com         
+                                </div>
+                            </div>
+                        </div>                                                                               
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="feature-box  clearfix">
+                            <div class="fbox-icon">
+                            <i class="zmdi zmdi-phone-setting"></i>
+                            </div>
+
+                            <div class="fbox-body">
+                                <h5 class="heading">
+                               <span>+</span>call us to support     
+                                </h5>
+                                <div class="htmlcontent">
+                                +1900 66 888 0000          
+                                </div>
+                            </div>
+                        </div>                                                                               
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="feature-box  clearfix">
+                            <div class="fbox-icon">
+                            <i class="zmdi zmdi-pin"></i>
+                            </div>
+
+                            <div class="fbox-body">
+                                <h5 class="heading">
+                                <span>+</span>Our Location
+                                </h5>
+                                <div class="htmlcontent">
+                                NY, USA            
+                                </div>
+                            </div>
+                        </div>                                                                               
+                    </div>
+                ]]></default>
+	 		</field>
+	 	 </module>
+         <module>
+            <title>Html Custom</title>
+            <field>
+                <name>widget-html-custom</name>
+                <label>Content</label>
+                <type>textarea</type>
+                <lang>0</lang>
+                <default><![CDATA[
+                    <div class="cushtml-style1">
+                        <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-6">
+                        <div class="cushtml-style1-title">Download our Mobile Apps<span class="cushtml-style1-subtitle">For extra cash rewards</span></div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-6 cushtml-content"><a title="iphone" href="#"><img class="img-responsive" alt="" src="image/catalog/iphone-bg.png"></a> <a title="androi" href="#"><img class="img-responsive" alt="" src="image/catalog/androi-bg.png"></a></div>
+                        </div>
+                    </div>
+                ]]></default>
+            </field>
+         </module>
+        <module>
+            <title>Social</title>
+            <field>
+                <name>widget-social</name>
+                <label>Content</label>
+                <type>textarea</type>
+                <lang>0</lang>
+                <default><![CDATA[
+                   <ul class="bo-social-icons list-inline">
+                    <li>
+                    <a title="Facebook" href="http://www.facebook.com" target="_blank" class="bo-social-facebook "><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                    <a title="Twitter" href="http://www.twitter.com" target="_blank" class="bo-social-twitter"><i class="fa fa-twitter"></i></a>
+                    </li>                           <li>
+                    <a title="RSS" href="#" target="_blank" class="bo-social-rss"><i class="fa fa-rss"></i></a>
+                    </li>
+                    <li>
+                    <a title="YouTube" href="#" target="_blank" class="bo-social-youtube"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li>
+                    <a title="Google+" href="#" target="_blank" class="bo-social-google"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                    <a title="Pinterest" href="#" target="_blank" class="bo-social-pinterest"><i class="fa fa-pinterest"></i></a>
+                    </li>
+                    <li>
+                    <a title="Vimeo" href="#" target="_blank" class="bo-social-vimeo"><i class="fa fa-vimeo-square"></i></a>
+                    </li>
+                    <li>
+                    <a title="Instagram" href="#" target="_blank" class="bo-social-instagram"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    </ul>
+                ]]></default>
+            </field>
+         </module>
+
+         <module>
+            <title>Paypal</title>
+            <field>
+                <name>module_paypal</name>
+                <label>Content</label>
+                <type>textarea</type>
+                <lang>0</lang>
+                <default><![CDATA[<img alt="payment" src="image/catalog/payment.png">]]></default>
+            </field>
+         </module>
+	</footer>
+</theme>

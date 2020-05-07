@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+	<author>pavotheme</author>
+	<name>Live Theme Editor</name>
+	<layout>
+
+		<item>
+		   <label>Main Content Home FullWidth</label>
+		   <block>home_container_full</block>
+		   <default>0</default>
+		   <option>
+		    <text>No</text>
+		    <value>0</value>
+		   </option>
+		   <option>
+		    <text>Yes</text>
+		    <value>1</value>
+		   </option>
+		</item>
+		<item>
+			<label>Logo Type</label>
+			<block>logo_type</block>
+			<default>logo-theme</default>
+			<option>
+				<text>Logo In Theme</text>
+				<value>logo-theme</value>
+			</option>
+			<option>
+				<text>Logo Opencart</text>
+				<value>logo-opencart</value>
+			</option>
+		</item>
+
+
+		<item>
+			<label>Offcanvas menu</label>
+			<block>offcanvas</block>
+			<default>category</default>
+			<option>
+				 <text>Category</text>
+				 <value>category</value>
+			</option>
+			<option>
+				 <text>Megamenu</text>
+				 <value>megamenu</value>
+			</option>
+
+		</item>
+
+		<item>
+			<label>Enable Quickview</label>
+			<block>Quickview</block>
+			<default>0</default>
+			<option>
+				<text>Enable</text>
+				<value>1</value>
+			</option>
+			<option>
+				<text>Disable</text>
+				<value>0</value>
+			</option>
+		</item>
+
+	</layout>
+</themeeditor>

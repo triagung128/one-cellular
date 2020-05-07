@@ -1,0 +1,91 @@
+.autosearch-wrapper {
+    background:$white;
+    color: $theme-color-default;
+    border:2px solid $brand-success;
+    position: relative;
+    margin-top: 30px;
+    .input-group-btn {
+        &:after {
+            background: #fff;
+            line-height: 38px;
+            position: absolute;
+            @include rtl-right(0);
+            text-align: center;
+            top: 0px;
+            font-family: 'FontAwesome';
+            content: "\f107";
+            font-size:16px;
+            @include size(50px,38px);
+            color: $brand-success;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 75%;
+            background: #e1e1e1;
+            top: 5px;
+            @include rtl-right(-1px);
+        }
+    }
+    .category_filter{
+        border: none;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 38px;
+        line-height: 30px;
+        padding: 0 20px;
+        max-width: 185px;
+        background: transparent;
+    }
+    .search_query{
+        background-color: transparent;
+        border: 0;
+        height: 38px;
+        font-family: "Droid Serif",serif;
+        font-size: 12px;
+        color:#c5c5c5;
+        font-style: italic;
+        width: auto;
+        &:focus {
+            @include box-shadow(inherit);
+        }
+    }
+    .input-group {
+        width: 100%;        
+    }
+    .button-search {
+        position: absolute;
+        @include rtl-right(-2px);
+        top: -2px;
+        border: 0;
+        font-size: 12px;
+        text-align: center;
+        height: 42px;
+        padding:0 25px;
+        i {
+            color: $theme-color-default;
+        }
+    }
+    .dropdown-menu {
+        z-index: 999;
+        > li {
+            &.clearfix {
+                border-bottom: 1px dashed $border-color;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+            > a {
+                padding: 0;
+            }
+            .media-body{
+                @include rtl-padding-left(10px);
+            }
+        }
+    }
+}

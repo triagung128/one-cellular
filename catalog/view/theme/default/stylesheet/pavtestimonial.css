@@ -1,0 +1,40 @@
+.pavtestimonial {
+	position:relative;
+	margin:0;
+}
+.pavtestimonial .carousel-inner{
+	position:relative;
+}
+.pavtestimonial .banner-info{
+	position:absolute;
+	bottom:25%;
+	left:10%;
+	z-index:4;
+	background:#ccc;
+	width:300px;
+	padding:12px;
+	min-height:40px;
+	opacity:0.7;
+  filter: alpha(opacity=70);
+}
+
+.pavtestimonial .carousel-indicators{
+	position:absolute;
+	bottom:10px;
+	left:20px;
+
+}
+.pavtestimonial .carousel-indicators li{ display:block;float:left;	z-index:20;
+	padding:10px; 
+	margin:3px; background:red; }
+.pavtestimonial .carousel-indicators li.active{ background:#000 }	
+
+.pavtestimonial  .thumb-indicators li {text-indent:0; 
+	display: block;
+    float: left;
+    height: 97px;
+    margin: 3px;
+    padding: 3px;
+    width: 23%;
+    z-index: 20;
+}

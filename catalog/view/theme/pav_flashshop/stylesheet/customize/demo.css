@@ -1,0 +1,67 @@
+
+/* customize for body */ 
+body { 
+font-family:inherit 
+} 
+
+/* customize for #topbar .icon,.fa-search */ 
+#topbar .icon,.fa-search { 
+color:#d92020 
+} 
+
+/* customize for header */ 
+header { 
+color:#26ff00 
+} 
+
+/* customize for .navbar-mega */ 
+.navbar-mega { 
+background-color:#d12ad1;
+background-image:url(../../image/pattern/pattern1.png) 
+} 
+
+/* customize for .navbar-mega .navbar-nav li a */ 
+.navbar-mega .navbar-nav li a { 
+color:#de18de 
+} 
+
+/* customize for .navbar-mega .navbar-nav li .dropdown-menu */ 
+.navbar-mega .navbar-nav li .dropdown-menu { 
+background-color:#35d424;
+background-image:url(../../image/pattern/pattern10.png) 
+} 
+
+/* customize for .navbar-mega .widget-heading */ 
+.navbar-mega .widget-heading { 
+color:#eb5e1d 
+} 
+
+/* customize for .navbar-mega .navbar-nav li .dropdown-menu li a */ 
+.navbar-mega .navbar-nav li .dropdown-menu li a { 
+color:#4024e0 
+} 
+
+/* customize for footer */ 
+footer { 
+background-image:url(../../image/pattern/pattern1.png) 
+} 
+
+/* customize for .copyright */ 
+.copyright { 
+background-image:url(../../image/pattern/pattern18.png) 
+} 
+
+/* customize for footer .footer-heading  */ 
+footer .footer-heading  { 
+color:#de28de 
+} 
+
+/* customize for .copyright,footer p  */ 
+.copyright,footer p  { 
+color:#0e8f37 
+} 
+
+/* customize for footer a, .copyright a */ 
+footer a, .copyright a { 
+color:#b8cc76 
+} 

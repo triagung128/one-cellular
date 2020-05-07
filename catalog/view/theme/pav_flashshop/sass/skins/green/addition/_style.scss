@@ -1,0 +1,21 @@
+.layerslider-wrapper .tp-bullets.simplebullets.round .bullet{
+    border:2px solid rgba(0,0,0,0.2);
+}
+.layerslider-wrapper .tp-bullets.simplebullets.round .bullet.selected::after{
+    background: #e1e1e1;
+    left: 0;
+    top: 0;
+}
+.layerslider-wrapper .tp-bullets.simplebullets.round .bullet.selected{
+    border:none;
+    background: #e1e1e1;
+}
+footer .footer-top{
+	background: url("../../image/green/pattern.png") repeat left bottom #3fc843;
+}
+.feature-box .heading span{
+	color: #fac900;
+}
+.product-block.product-v1 .cart .btn:hover i{
+	color: #c7a000;
+}

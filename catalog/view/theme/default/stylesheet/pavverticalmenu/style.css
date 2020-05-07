@@ -1,0 +1,62 @@
+.pav-verticalmenu{
+	position: relative;	
+}
+
+
+.pav-verticalmenu .dropdown-menu > .dropdown-menu-inner {
+  padding: 10px;
+}
+.pav-verticalmenu .mega-group .caret {
+  display: none;
+}
+.pav-verticalmenu .mega-group > .dropdown-toggle {
+  display: block;
+  font-weight: bold;
+  padding: 6px 5px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #E5E5E5;
+}
+.pav-verticalmenu .mega-group .dropdown-mega .mega-col-inner > ul > li a {
+  margin-left: 6px;
+}
+.pav-verticalmenu .mega-col .mega-col-inner > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.pav-verticalmenu .mega-col .mega-col-inner > ul > li {
+  list-style: none;
+  margin-left: 0;
+}
+.pav-verticalmenu .mega-col .mega-col-inner > ul > li > a {
+  clear: both;
+  color: #555555;
+  display: block;
+  line-height: 20px;
+}
+.pav-verticalmenu .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+.pav-verticalmenu .dropdown-submenu > .dropdown-menu {
+  border-radius: 0 6px 6px 6px;
+  left: 100%;
+  margin-left: -6px;
+  margin-top: -6px;
+  top: 0;
+}
+
+
+
+
+.widget-product-list img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 12px;
+}
+
+.widget-banner .w-banner{
+ margin: 6px 10px; 
+	float: left;
+} 
+
