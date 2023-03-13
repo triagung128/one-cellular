@@ -22,4 +22,4 @@ Untuk database hub : triagung128@gmail.com.
 
 ## Author
 **Tri Agung Susilo** <br />
-Dont for get to Follow and ★ Star
+Dont for get to follow and ★ star.
